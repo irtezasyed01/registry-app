@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #282c34;
+}
+.background{
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+}
+
+.registry form{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.registry input[type="Submit"] {
+  color:#fff;
+  background-color: #333;
+  padding: 10px;
+  border: 2px solid #000;
+  margin-left: 5px;
+}
+
+.registry input[type="text"]{
+  padding: 10px;
+  border: 2px solid #000;
+  width: 280px;
+}
+
+ul{
+  margin-top: 10px;
+  list-style-type: square;
+  max-width: 400px;
+  margin: auto;
+}
+
+ul li{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 10px;
+}
+
+ul li button{
+  width: auto;
+  margin: auto;
+  padding: 7px;
+  cursor: pointer;
+  background-color: #282c34;
+  color: #fff;
+}
+
+span {
+  width: 230px;
+  text-align: left;
+  color: #fff;
+  padding: 7px;
+}
+
+.link{
+  color:#61dafb;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+h1{
+  color: #fff;
+}
